@@ -1,0 +1,246 @@
+body {
+    padding-top: 90px;
+    background-image: url(https://www.joburgchiropractor.co.za/images/background.jpg);
+    /* font-family: "Poppins", sans-serif;
+    height: 100vh; */
+}
+.login{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.create{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.error{
+  text-align: center;
+  color: red;
+}
+.col-xs-6{
+  height: 35px;
+}
+.panel.panel-login{
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    background-color: #bbb8b8;
+}
+.panel-login {
+	/* border-color: #ccc; */
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.788);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #17a2b8;
+	background-color: #bbb8b8;
+	text-align:center;
+}
+
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	/* color: #666; */
+	font-weight: bold;
+	font-size: 18px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 20px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 0px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+/* .btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+} */
+
+/* .btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #5adaee;
+	border-color: #5adaee;
+} */
+#username, #username1, #password, #password1, #email, #confirm-password{
+    background-color: rgb(214, 241, 240);
+}
+.form-control.btn.btn-login, .form-control.btn.btn-register {
+    background: #34ced9;
+    background-image: -webkit-linear-gradient(top, #34ced9, #2b63b8);
+    background-image: -moz-linear-gradient(top, #34ced9, #2b63b8);
+    background-image: -ms-linear-gradient(top, #34ced9, #2b63b8);
+    background-image: -o-linear-gradient(top, #34ced9, #2b63b8);
+    background-image: linear-gradient(to bottom, #34ced9, #2b63b8);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 0px 0px 3px #666666;
+    -webkit-box-shadow: 0px 0px 0px #c712bb;
+    -moz-box-shadow: 0px 0px 0px #c712bb;
+    box-shadow: 0px 0px 0px #c712bb;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 14px, 0;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+  }
+  
+  .form-control.btn.btn-login:hover, .form-control.btn.btn-register:hover{
+    background: #3ce6fc;
+    background-image: -webkit-linear-gradient(top, #3ce6fc, #3498db);
+    background-image: -moz-linear-gradient(top, #3ce6fc, #3498db);
+    background-image: -ms-linear-gradient(top, #3ce6fc, #3498db);
+    background-image: -o-linear-gradient(top, #3ce6fc, #3498db);
+    background-image: linear-gradient(to bottom, #3ce6fc, #3498db);
+    text-decoration: none;
+  }
+.forgot-password {
+	text-decoration: underline;
+	color: #1462bb;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+/* .btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+} */
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+
+/* ************* ANIMATIONS ******************************* */
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  /* Fade In ANIMATION */
+  /* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.box{
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.login, .create-acc{
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.form-control{
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.remember{
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
